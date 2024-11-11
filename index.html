@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widt=device-widht, initial-scale=1">
+    <title>Curso VNW</title>    
+</head>
+<body>
+    <header>
+        <h1> Conecte-se</h1>
+        <h2> Compre ingressos e combos de pipoca com conforto e comodidade</h2>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Preencha os campos</legend>
+            <div>
+                <label for="nome"> Nome </label>
+                <input type="text" name="nome" id="nome" placeholder="Escreva seu nome"  />
+            </div>
+            
+            <div>
+                <label for="email"> Email </label>
+                <input type="email" name="email" id="email" placeholder="Escreva seu email"  />
+            </div>
+            <div>
+                <label for="telefone"> Telefone </label>
+                <input type="tel" name="telefone" id="telefone" placeholder="Escreva seu telefone"  />
+            </div>
+            <div>
+                <label for="estados"> Estados </label>
+                <select>
+                    <option value="AC">AC</option>
+                    <option value="SP">SP</option>
+                    <option value="RJ">RJ</option>                    
+                </select>
+            </div>
+            
+            </fieldset>
+            <fieldset>
+                <legend>Informações</legend>
+                <label for ="site">Site</label>
+                <input type="url" name="site" id="site" placeholder="Escreva seu site"  />
+
+                <label for ="senha">Senha</label>
+                <input type="password" name="ssenha" id="senha" placeholder="Escreva sua senha"  />
+
+                <label for ="data">Data de nascimento</label>
+                <input type="date" name="data de nascimento" id="data de nascimento" />
+            </fieldset>
+
+            <fieldset>                
+                <input type="checkbox" name="autorizacao" />
+                <label for="autorizacao">Concordo com os termos de uso</label>
+                <p>O uso de nosso site e aplicativo é regulado por nosso termos de uso</p>
+
+                <input type="file" id="documento" name="documento" accept="documento/pdf"/>
+            </fieldset>
+            <fieldset>
+                <img scr=" https://images.vexels.com/media/users/3/201138/isolated/lists/143b8e1550deda3eadf5a8c0045cbb0f-robo-de-brinquedo-plano.png " alt="" width="100" />
+
+                <input type="radio" name="robo" id="sourobo"/>
+                <label for="sim">Sou robo</label>
+                <input type="radio" name="robo" id="naosourobo"/>
+                <label for="nao">Não sou robo</label>
+                <input type="radio" name="robo" id="talvezeuseja"/>
+                <label for="talvez">Talvez eu seja robo</label>        
+
+            </fieldset>
+
+            <input type="submit" value="enviar"/>
+            <button type="reset"> Resetar </button>
+            <button type="button"> Padrão </button>
+            <button> Enviar </button>
+
+
+        </form>
+    </main>
+</body>
+</html>
